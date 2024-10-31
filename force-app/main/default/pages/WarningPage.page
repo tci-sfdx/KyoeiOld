@@ -1,0 +1,5 @@
+<apex:page standardController="Management__c" extensions="ManagementController" lightningStylesheets="true">
+    <apex:outputPanel id="hiddenblock">
+        <apex:pageMessages /> 
+    </apex:outputPanel>
+</apex:page>

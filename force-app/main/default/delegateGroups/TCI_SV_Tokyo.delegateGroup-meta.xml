@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DelegateGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>TCI_SV(東京)</label>
+    <loginAccess>false</loginAccess>
+    <roles>SV(東京)</roles>
+</DelegateGroup>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Withdrawal_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>DialogueResult__c</columns>
+    <columns>IsLinked__c</columns>
+    <columns>RelinkingFlg__c</columns>
+    <columns>ScenarioType__c</columns>
+    <columns>SessionID__c</columns>
+    <columns>VoiceLogURL__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>DialogueResult__c</field>
+        <operation>equals</operation>
+        <value>離脱</value>
+    </filters>
+    <label>離脱受付ログ</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Info__c</fullName>
+    <externalId>false</externalId>
+    <label>問合せ・事故受付管理</label>
+    <referenceTo>Management__c</referenceTo>
+    <relationshipLabel>追加情報</relationshipLabel>
+    <relationshipName>AddInfoR</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

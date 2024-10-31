@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>現場対応</label>
+            <name>Category0</name>
+        </dataCategory>
+        <dataCategory>
+            <label>事故受付</label>
+            <name>Category1</name>
+        </dataCategory>
+        <label>すべて</label>
+        <name>All</name>
+    </dataCategory>
+    <label>自動車・質問</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

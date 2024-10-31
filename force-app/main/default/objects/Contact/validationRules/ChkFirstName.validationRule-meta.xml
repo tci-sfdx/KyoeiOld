@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkFirstName</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF ( ISBLANK (  FirstName ), FALSE, 
+NOT ( OR(REGEX ( FirstName , &quot;~[ｦ-ﾟ]*$&quot; ),REGEX( FirstName , &quot;~[ァ-ー]+$&quot;) )))</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>カタカナで入力してください</errorMessage>
+</ValidationRule>

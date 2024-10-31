@@ -1,0 +1,5 @@
+<apex:page standardController="Contact" extensions="myContactController" lightningStylesheets="true">
+    <apex:outputPanel id="hiddenblock">
+        <apex:pageMessages /> 
+    </apex:outputPanel>
+</apex:page>

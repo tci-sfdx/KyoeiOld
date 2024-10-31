@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>TCIUserReferenceOsaka</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>TCIユーザ参照（大阪）</label>
+        <sharedTo>
+            <group>TCI_Management</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Admin_Osaka</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TCIUserReferenceTokyo</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>TCIユーザ参照（東京）</label>
+        <sharedTo>
+            <group>TCI_Management</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Admin_Tokyo</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

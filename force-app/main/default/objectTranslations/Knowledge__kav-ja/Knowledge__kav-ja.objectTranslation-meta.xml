@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FAQ</value>
+    </caseValues>
+    <layouts>
+        <layout>Knowledgeレイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- システム権限 --></label>
+            <section>システム権限</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- FAQ_ALL --></label>
+        <name>FAQ_ALL</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FAQ_TCI --></label>
+        <name>FAQ_TCI</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FAQ_WEL --></label>
+        <name>FAQ_WEL</name>
+    </recordTypes>
+</CustomObjectTranslation>

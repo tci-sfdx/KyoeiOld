@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CallDataRecordType</fullName>
+    <active>true</active>
+    <label>コールデータ</label>
+    <picklistValues>
+        <picklist>AccidentCheck__c</picklist>
+        <values>
+            <fullName>事故</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>事故以外</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BedoreScenarioType__c</picklist>
+        <values>
+            <fullName>その他事故シナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>その他問合せシナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>傷害事故シナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>台風事故シナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>地震事故シナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>契約関連シナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>携行品%E3%83%BB用品事故シナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>既報事故シナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>物損事故シナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>第三分野事故シナリオ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>賠償事故シナリオ</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FormType__c</picklist>
+        <values>
+            <fullName>事故受付%EF%BC%88その他%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>事故受付%EF%BC%88ヨット%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>事故受付%EF%BC%88傷害%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>事故受付%EF%BC%88携行品%2F用品%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>事故受付%EF%BC%88日整連%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>事故受付%EF%BC%88物損%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>事故受付%EF%BC%88第三分野%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>事故受付%EF%BC%88自動車%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>事故受付%EF%BC%88賠償%EF%BC%89</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>伝言</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>雑件</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Line__c</picklist>
+        <values>
+            <fullName>S11 KY Telema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S113 Shinkin Tsumikin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S119 KY Jiko Saigai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S125 KY Jiko Kashin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S127 KY Jiko Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S129 KY Ucoop Kodomo Shougai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S131 JA Anshin Jiko</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S134 Kyoudou Nyugyou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S135 KY Kyoudou Nyugyou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S136 Kyoudou Nyugyou Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S137 KY Kyoudou Nyugyou Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S138 Direct Mail Jikouke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S144 KY Oosaka Tci Orikaeshi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S150 Kenkousoudan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S156 Osusume Seikyo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S157 KY Osusume Seikyo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S16 Daihyoubangou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S18 KY Coop Shougai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S180 Tci Orikaeshi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S181 KY Tci Orikaeshi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S184 KY Nougyou Daigaku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S186 Jiko Rescue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S188 KY Nougyou Kyousai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S19 KY Jiko Daigaku Seikyou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S191 Telema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S193 Customer Jikouke250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S194 KY Customer Jikouke250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S195 Hokenkin Sodan112</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S196 KY Hokenkin Sodan112</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S197 Hokenkin Sodan250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S198 KY Hokenkin Sodan250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S20 KY Jiko Jidousya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S203 KY Coop Kobai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S208 KY Coop Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S21 KY Jiko Coop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S213 KY Ucoop Kodomo Kobai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S218 KY Ucoop Kodomo Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S222 KY JA Anshin Jikouke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S223 PTAJikouke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S225 KY Nisseiren Jikouke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S23 KY PTA Jikouke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S262 Customer Jikouke112</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S263 KY Customer Jikouke112</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S318 JishinSaigai077</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S319 KY JishinSaigai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S325 Oosaka Jiko  Jidousha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S326 Oosaka KY Jiko  Jidousha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S327 Oosaka Jiko Kashin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S328 Oosaka KY Jiko Kashin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S329 Oosaka Madohan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S330 Oosaka KY Madohan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S331 Oosaka JA Anshin Jikouke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S332 Oosaka KY JA Anshin Jikouke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S54 Madohan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S61 KY Madohan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S63 KY Shinkin Tsumi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S66 Jiko Jidousya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S67 Jiko Kashin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S68 Jiko Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S69%E3%80%80Jiko Saigai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S71 KY Kyousai Hoken SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S77 Jiko Uketsuke C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S79 Dairiten Jikouke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S84 Nougyou Daigaku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S86 KY Jiko Rescue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S88 Nougyou Kyousai</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
